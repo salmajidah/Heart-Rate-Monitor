@@ -37,8 +37,8 @@ int count = 9;
 unsigned long starttime = 0;
 int heartrate;
 boolean counted = false;
-float filterFrequency = 3.5  ;
-float filterFrequency1 = 0.6 ;
+float filterFrequency = 3.5  ;                //Cut off frequency for lowpass filter
+float filterFrequency1 = 0.6 ;                //Cut off frequency for highpass filter
 
 //INISIASI AWAL ARDUINO (LED, serial, OLED)
 void setup (void) {
